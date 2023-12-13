@@ -9,8 +9,8 @@ function Landing () {
                 <div>based in Long Beach.</div>
                 <div className="mt-12 lg:mt-24 bg-black w-6 h-0.5"></div>
             </div>
-            <div className="mt-6 text-lg max-w-[720px] mb-20 xl:mb-52">
-                I build thoughtfully designed applications that prioritize the user experience. I&apos;m passionate about leveraging my multidisciplinary background to approach technical challenges in new and creative ways. Check out some of my work below.
+            <div className="mt-6 text-lg max-w-[740px] mb-20 xl:mb-52">
+                I build thoughtfully designed applications that prioritize user experience. I&apos;m passionate about leveraging my multidisciplinary background to approach technical challenges in new and creative ways. Check out some of my work below.
             </div>
         </div>
     )
