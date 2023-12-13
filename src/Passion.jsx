@@ -14,7 +14,7 @@ function Passion() {
             <div>
                 <Nav />
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="mt-10 grid grid-cols-2 gap-4">
                 <img onClick={() => window.open(Progress, "_blank")} className="object-cover w-full col-span-2 sm:col-span-1 hover:cursor-pointer" src={Progress} alt="progress" />
                 <div className="flex flex-col col-span-2 sm:col-span-1">
                     <img onClick={() => window.open(RataAlada, "_blank")} className="object-cover w-full h-full hover:cursor-pointer" src={RataAlada} alt="rata alada" />
