@@ -5,7 +5,7 @@ import Contact from "./Contact";
 function Landing () {
 
     return (
-        <div className="px-8 xl:px-36 pt-10 ">
+        <div className="px-8 xl:px-36 pt-10">
             <Nav />
             <div className="pt-12 xl:pt-32 font-black text-4xl leading-[2.5rem] md:text-5xl md:leading-[3rem] xl:text-8xl xl:leading-[6rem]">
                 <div>Hello.</div>

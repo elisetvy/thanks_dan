@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 function Nav() {
 
     return (
-        <div className="font-medium text-2xl">
+        <Link className="font-medium text-2xl hover:opacity-50" to="/">
             Elise.
-        </div>
+        </Link>
     )
 }
 

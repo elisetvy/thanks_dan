@@ -21,10 +21,10 @@ function Contact() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 xl:flex gap-6 opacity-50 xl:opacity-100">
-                    <Link className="hover:opacity-50" to="mailto:elisetvy@gmail.com">Email</Link>
-                    <Link className="hover:opacity-50" to="https://www.linkedin.com/in/elisetvy/" target="_blank">LinkedIn</Link>
-                    <Link className="hover:opacity-50" to="https://github.com/elisengo" target="_blank">GitHub</Link>
-                    <Link className="hover:opacity-50" to="https://calendly.com/elisengo" target="_blank">Calendly</Link>
+                    <Link className="xl:hover:opacity-50" to="mailto:elisetvy@gmail.com">Email</Link>
+                    <Link className="xl:hover:opacity-50" to="https://www.linkedin.com/in/elisetvy/" target="_blank">LinkedIn</Link>
+                    <Link className="xl:hover:opacity-50" to="https://github.com/elisengo" target="_blank">GitHub</Link>
+                    <Link className="xl:hover:opacity-50" to="https://calendly.com/elisengo" target="_blank">Calendly</Link>
                 </div>
             </div>
             <div className="hidden pt-24 xl:flex flex justify-center items-center opacity-25">
