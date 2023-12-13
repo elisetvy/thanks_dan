@@ -12,10 +12,10 @@ function Landing () {
                 <div>I&apos;m Elise Ngo,</div>
                 <div>a Software Engineer</div>
                 <div>based in Long Beach.</div>
-                <div className="mt-12 lg:mt-24 bg-black w-6 h-0.5"></div>
+                <div className="mt-12  bg-black w-6 h-0.5"></div>
             </div>
-            <div className="mt-10 text-lg max-w-[740px] mb-20 xl:mb-52">
-                I build thoughtfully designed applications that prioritize user experience. I&apos;m passionate about leveraging my multidisciplinary background to approach technical challenges in new and creative ways. Check out some of my work below.
+            <div className="mt-12 text-lg max-w-[750px] mb-20 xl:mb-52">
+                I build thoughtfully designed applications that prioritize user experience. I&apos;m passionate about leveraging my background in Marketing and Language Studies to approach technical challenges in new and creative ways. Check out some of my work below.
             </div>
             <Experience />
             <Contact />

@@ -12,7 +12,7 @@ function Contact() {
     }
 
     return (
-        <div className="text-lg py-36">
+        <div className="text-lg pt-20 pb-20 xl:pt-36">
             <div className="grid grid-cols-10 gap-6">
                 <div className="col-span-12 xl:col-span-3">
                     <div className="flex gap-6">
@@ -23,11 +23,11 @@ function Contact() {
                 <div className="grid grid-cols-1 xl:flex gap-6 opacity-50 xl:opacity-100">
                     <Link className="xl:hover:opacity-50" to="mailto:elisetvy@gmail.com">Email</Link>
                     <Link className="xl:hover:opacity-50" to="https://www.linkedin.com/in/elisetvy/" target="_blank">LinkedIn</Link>
-                    <Link className="xl:hover:opacity-50" to="https://github.com/elisengo" target="_blank">GitHub</Link>
+                    <Link className="xl:hover:opacity-50" to="https://github.com/elisetvy" target="_blank">GitHub</Link>
                     <Link className="xl:hover:opacity-50" to="https://calendly.com/elisengo" target="_blank">Calendly</Link>
                 </div>
             </div>
-            <div className="hidden pt-24 xl:flex flex justify-center items-center opacity-25">
+            <div className="hidden pt-36 xl:flex flex justify-center items-center opacity-25">
                 <img onClick={scrollToTop} className="h-10 w-10 hover:cursor-pointer" src={Back_To_Top} alt="back to top" />
             </div>
         </div>

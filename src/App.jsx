@@ -1,8 +1,10 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Landing from "./Landing";
 import Foqal from "./Foqal";
 import LoveNotes from "./LoveNotes";
+import Jobly from "./Jobly";
+import NK from "./NK";
 
 function App() {
 
@@ -11,8 +13,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/experience/foqal" element={<Foqal />} />
-        <Route path="/experience/lovenotes" element={<LoveNotes />} />
+        <Route path="/portfolio/foqal" element={<Foqal />} />
+        <Route path="/portfolio/lovenotes" element={<LoveNotes />} />
+        <Route path="/portfolio/jobly" element={<Jobly />} />
+        <Route path="/portfolio/nkagency" element={<NK />} />
+        <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
     </>
