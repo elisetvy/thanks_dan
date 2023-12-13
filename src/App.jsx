@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import Landing from "./Landing";
+import Experience from "./Experience";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Nav />
       <Landing />
+      <Experience />
     </>
   )
 }

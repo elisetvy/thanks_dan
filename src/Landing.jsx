@@ -12,7 +12,6 @@ function Landing () {
             <div className="mt-6 text-lg max-w-[720px] mb-20 xl:mb-52">
                 I build thoughtfully designed applications that prioritize the user experience. My passion lies in leveraging my multidisciplinary background to approach technical challenges in new and creative ways. Check out some of my work below.
             </div>
-            jj
         </div>
     )
 }
