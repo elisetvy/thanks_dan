@@ -1,6 +1,15 @@
 import { Link } from "react-router-dom";
 
+import Back_To_Top from "./assets/Back_To_Top.png";
+
 function Contact() {
+
+    function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth'
+        });
+    }
 
     return (
         <div className="px-8 xl:px-36 py-24 text-lg">
@@ -12,11 +21,14 @@ function Contact() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 xl:flex gap-6 opacity-50 xl:opacity-100">
-                    <Link to="mailto:elisetvy@gmail.com">Email</Link>
-                    <Link to="https://www.linkedin.com/in/elisetvy/" target="_blank">LinkedIn</Link>
-                    <Link to="https://github.com/elisengo" target="_blank">GitHub</Link>
-                    <Link to="https://calendly.com/elisengo" target="_blank">Calendly</Link>
+                    <Link className="hover:opacity-50" to="mailto:elisetvy@gmail.com">Email</Link>
+                    <Link className="hover:opacity-50" to="https://www.linkedin.com/in/elisetvy/" target="_blank">LinkedIn</Link>
+                    <Link className="hover:opacity-50" to="https://github.com/elisengo" target="_blank">GitHub</Link>
+                    <Link className="hover:opacity-50" to="https://calendly.com/elisengo" target="_blank">Calendly</Link>
                 </div>
+            </div>
+            <div className="hidden pt-24 xl:flex flex justify-center items-center opacity-25">
+                <img onClick={scrollToTop} className="h-10 w-10 hover:cursor-pointer" src={Back_To_Top} alt="back to top" />
             </div>
         </div>
     )
