@@ -5,6 +5,7 @@ import Foqal from "./Foqal";
 import LoveNotes from "./LoveNotes";
 import Jobly from "./Jobly";
 import NK from "./NK";
+import Passion from "./Passion";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/portfolio/lovenotes" element={<LoveNotes />} />
         <Route path="/portfolio/jobly" element={<Jobly />} />
         <Route path="/portfolio/nkagency" element={<NK />} />
+        <Route path="/portfolio/passionprojects" element={<Passion />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </BrowserRouter>
