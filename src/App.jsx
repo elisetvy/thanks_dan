@@ -1,19 +1,17 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Nav from "./Nav";
 import Landing from "./Landing";
-import Experience from "./Experience";
-import Contact from "./Contact";
+import Foqal from "./Foqal";
 
 function App() {
 
   return (
     <>
     <BrowserRouter>
-      <Nav />
-      <Landing />
-      <Experience />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/experience/foqal" element={<Foqal />} />
+      </Routes>
     </BrowserRouter>
     </>
   )

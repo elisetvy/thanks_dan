@@ -12,7 +12,7 @@ function Contact() {
     }
 
     return (
-        <div className="px-8 xl:px-36 py-24 text-lg">
+        <div className="text-lg py-36">
             <div className="grid grid-cols-10 gap-6">
                 <div className="col-span-12 xl:col-span-3">
                     <div className="flex gap-6">
