@@ -10,7 +10,7 @@ function Experience() {
                 <div onClick={() => navigate("/experience/foqal")} className="relative w-full aspect-square bg-black hover:cursor-pointer">
                     <div className="absolute h-full w-full font-bold text-white text-3xl flex justify-center items-center">Foqal</div>
                 </div>
-                <div className="relative w-full aspect-square bg-black">
+                <div onClick={() => navigate("/experience/lovenotes")} className="relative w-full aspect-square bg-black hover:cursor-pointer">
                     <div className="absolute h-full w-full font-bold text-white text-3xl flex justify-center items-center">Love Notes</div>
                 </div>
                 <div className="relative w-full aspect-square bg-black">
