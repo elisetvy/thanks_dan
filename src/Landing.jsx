@@ -15,7 +15,7 @@ function Landing () {
                 <div className="mt-12  bg-black w-6 h-0.5"></div>
             </div>
             <div className="mt-12 text-lg max-w-[750px] mb-20 xl:mb-52">
-                I build thoughtfully designed applications with empathetic engineering and taking a human-centered approach to writing software that prioritizes the user experience and developer experience. I&apos;m passionate about leveraging my background in Marketing and Language Studies to approach technical challenges in new and creative ways. Check out some of my work below.
+                I build thoughtfully designed, empathetically engineered applications that prioritize the user experience and developer experience. I&apos;m passionate about leveraging my background in Marketing and Language Studies to approach technical challenges in new and creative ways. Check out some of my work below.
             </div>
             <Experience />
             <Contact />
