@@ -1,6 +1,5 @@
 import Nav from "./Nav";
 import LoveNotes_1 from "./assets/LoveNotes.png";
-import LoveNotes_2 from "./assets/LoveNotes 2.png";
 
 function LoveNotes() {
 
@@ -16,7 +15,6 @@ function LoveNotes() {
                 <div className="mt-4 text-md font-black tracking-widest opacity-25">TECHNOLOGIES USED</div>
                 <div className="text-lg">JavaScript, React, TailwindCSS, Node/Express, JSON Schema, JSON Web Tokens, PostgreSQL, MapQuest, AWS S3, Jest, SuperTest, Git, GitHub</div>
             </div>
-            <img className="mt-10 border w-full" src={LoveNotes_2} alt="love notes 2" />
         </div>
     )
 }
