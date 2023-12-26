@@ -14,6 +14,7 @@ function Passion() {
             <div>
                 <Nav />
             </div>
+            <div className="mt-10 text-lg">When I&apos;m not coding, I enjoy creating digital art that expresses my passion for literature and languages.</div>
             <div className="mt-10 grid grid-cols-2 gap-4">
                 <img onClick={() => window.open(Progress, "_blank")} className="object-cover w-full col-span-2 sm:col-span-1 hover:cursor-pointer" src={Progress} alt="progress" />
                 <div className="flex flex-col col-span-2 sm:col-span-1">
