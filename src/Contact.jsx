@@ -22,7 +22,7 @@ function Contact() {
                 </div>
                 <div className="grid grid-cols-1 xl:flex gap-6 opacity-50 xl:opacity-100">
                     <Link className="xl:hover:opacity-50" to="mailto:elise@elisengo.com">Email</Link>
-                    <Link className="xl:hover:opacity-50" to="https://www.linkedin.com/in/elisetvy/" target="_blank">LinkedIn</Link>
+                    <Link className="xl:hover:opacity-50" to="https://www.linkedin.com/in/elisengo/" target="_blank">LinkedIn</Link>
                     <Link className="xl:hover:opacity-50" to="https://github.com/elisetvy" target="_blank">GitHub</Link>
                     <Link className="xl:hover:opacity-50" to="https://calendly.com/elisengo" target="_blank">Calendly</Link>
                 </div>
