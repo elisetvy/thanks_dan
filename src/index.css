@@ -21,16 +21,46 @@
   border: 1px solid green;
 }
 
-.fade-in-enter {
+.fade-in-1-enter {
+  transform: translateY(0.25em);
   opacity: 0;
 }
 
-.fade-in-enter-active {
+.fade-in-1-enter-active {
+  transform: translateY(0);
   opacity: 1;
-  transition: opacity 3000ms;
+  transition: transform 1000ms, opacity 1000ms;
 }
 
-.fade-in-done {
-  opacity: 1;
+.fade-in-2-enter {
+  transform: translateY(0.25em);
+  opacity: 0;
 }
 
+.fade-in-2-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 1000ms 100ms, opacity 1000ms 100ms;
+}
+
+.fade-in-3-enter {
+  transform: translateY(0.25em);
+  opacity: 0;
+}
+
+.fade-in-3-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 1000ms 200ms, opacity 1000ms 200ms;
+}
+
+.fade-in-4-enter {
+  transform: translateY(0.25em);
+  opacity: 0;
+}
+
+.fade-in-4-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 1000ms 300ms, opacity 1000ms 300ms;
+}
