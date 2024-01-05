@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { CSSTransition } from "react-transition-group";
 
 import Nav from "./Nav";
-import Resume from "./assets/EliseNgo_Resume_December2023.pdf";
+import Resume from "./assets/EliseNgo_Resume_January2024.pdf";
 import Experience from "./Experience";
 import Contact from "./Contact";
 
